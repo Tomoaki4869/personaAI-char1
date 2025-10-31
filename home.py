@@ -30,5 +30,5 @@ html_code = """
 """
 
 # StreamlitでHTMLを埋め込み
-components.html(html_code, height=1200, scrolling=True)
+st.markdown(html_code, unsafe_allow_html=True)
 
