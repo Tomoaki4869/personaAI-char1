@@ -17,13 +17,13 @@ html_code = """
 
     <div class="link">
         <a herf="https://personaai-gmd.streamlit.app/">妊娠糖尿病</a><br>
-        <a>https://personaai-gmd.streamlit.app/</a><br>
+        <a>https://personaai-gmd.streamlit.app/</a><br><br>
         <a herf="https://personaai-gmd.streamlit.app/">1型糖尿病</a><br>
-        <a>https://personaai-t1d.streamlit.app/</a><br>
+        <a>https://personaai-t1d.streamlit.app/</a><br><br>
         <a herf="https://personaai-gmd.streamlit.app/">2型糖尿病</a><br>
-        <a>https://personaai-t2d.streamlit.app/</a><br>
+        <a>https://personaai-t2d.streamlit.app/</a><br><br>
         <a herf="https://personaai-pret2d.streamlit.app/">2型糖尿病 予備軍</a><br>
-        <a>https://personaai-pret2d.streamlit.app/</a><br>
+        <a>https://personaai-pret2d.streamlit.app/</a><br><br>
     </div>
 </body>
 </html>
@@ -31,3 +31,4 @@ html_code = """
 
 # StreamlitでHTMLを埋め込み
 components.html(html_code, height=1200, scrolling=True)
+
