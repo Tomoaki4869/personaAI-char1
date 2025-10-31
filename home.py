@@ -16,8 +16,8 @@ html_code = """
     </div>
 
     <div class="link">
-        <a href="https://personaai-gmd.streamlit.app/" target="_blank">妊娠糖尿病</a><br>
-        <a>https://personaai-gmd.streamlit.app/</a><br><br>
+        <a href="https://personaai-gdm.streamlit.app/" target="_blank">妊娠糖尿病</a><br>
+        <a>https://personaai-gdm.streamlit.app/</a><br><br>
         <a href="https://personaai-gmd.streamlit.app/" target="_blank">1型糖尿病</a><br>
         <a>https://personaai-t1d.streamlit.app/</a><br><br>
         <a href="https://personaai-gmd.streamlit.app/" target="_blank">2型糖尿病</a><br>
@@ -31,6 +31,7 @@ html_code = """
 
 # StreamlitでHTMLを埋め込み
 components.html(html_code, height=1200, scrolling=True)
+
 
 
 
