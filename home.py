@@ -20,7 +20,7 @@ html_code = """
         <a>https://personaai-gdm.streamlit.app/</a><br><br>
         <a href="https://personaai-t1d.streamlit.app/" target="_blank">1型糖尿病</a><a>　川上 想太朗 さん</a><br>
         <a>https://personaai-t1d.streamlit.app/</a><br><br>
-        <a href="https://personaai-t2d.streamlit.app/" target="_blank">2型糖尿病</a><a>高橋 健一 さん</a><br>
+        <a href="https://personaai-t2d.streamlit.app/" target="_blank">2型糖尿病</a><a>　高橋 健一 さん</a><br>
         <a>https://personaai-t2d.streamlit.app/</a><br><br>
         <a href="https://personaai-pret2d.streamlit.app/" target="_blank">2型糖尿病 予備軍</a><a>　田中 健一 さん</a><br>
         <a>https://personaai-pret2d.streamlit.app/</a><br><br>
@@ -31,6 +31,7 @@ html_code = """
 
 # StreamlitでHTMLを埋め込み
 components.html(html_code, height=1200, scrolling=True)
+
 
 
 
